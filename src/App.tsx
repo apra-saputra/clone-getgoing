@@ -1,6 +1,6 @@
-import { router } from "./pages/routes";
+import { router } from "./routes/router";
 import { RouterProvider } from "react-router-dom";
-import { AlertDialogProvider } from "./contexts/AlertDialogContext";
+import { AlertDialogProvider } from "./features/shared/contexts/AlertDialogContext";
 
 function App() {
   return (
